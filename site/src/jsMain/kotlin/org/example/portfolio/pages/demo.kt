@@ -7,8 +7,8 @@ import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.core.Page
 import com.varabyte.kobweb.silk.components.layout.SimpleGrid
 import com.varabyte.kobweb.silk.components.layout.numColumns
-import org.example.portfolio.component.CircularProgressBar
-import org.example.portfolio.component.DefaultCircularProgressBarColor
+import org.example.portfolio.components.CircularProgressBar
+import org.example.portfolio.components.DefaultCircularProgressBarColor
 import org.jetbrains.compose.web.css.*
 import kotlin.time.Duration.Companion.milliseconds
 
@@ -29,7 +29,8 @@ fun Demo() {
             colors = DefaultCircularProgressBarColor(
                 progressBackground = Color("#FF6F61"),
                 progressColor =  Color("#B54036")
-            ))
+            )
+        )
         CircularProgressBar(
             delay = 20.milliseconds,
             colors = DefaultCircularProgressBarColor(

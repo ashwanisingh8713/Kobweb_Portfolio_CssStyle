@@ -15,7 +15,7 @@ import com.varabyte.kobweb.silk.style.toModifier
 import com.varabyte.kobweb.silk.components.text.SpanText
 import com.varabyte.kobweb.silk.style.animation.toAnimation
 import org.example.portfolio.Constants
-import org.example.portfolio.component.rememberAnimatedText
+import org.example.portfolio.components.rememberAnimatedText
 import org.example.portfolio.styles.*
 import org.example.portfolio.utils.Assets
 import org.example.portfolio.utils.atBreakpointMd

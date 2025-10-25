@@ -1,4 +1,4 @@
-package org.example.portfolio.component
+package org.example.portfolio.components
 
 import androidx.compose.runtime.*
 import kotlinx.coroutines.delay
